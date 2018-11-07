@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+:root {
+  --color1: white;
+  --color2: black;
+  --color3: lightseagreen;
+}
+
+* {
+ box-sizing: border-box; 
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  background: var(--color1);
+  color: var(--color2);
+  font-weight: normal;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+  padding: 4vh;
+}
+
+h2 {
+  font-size: 3vh;
+}
+
+h3 {
+  font-size: 3vh;
+  text-align: center;
+}
+
+p {
+  font-size: 2vh;
+  padding: 2vh;
+}
+
+.centered {
+  text-align: center;
+}
+
+.green-font{
+  color: var(--color3);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#welcome {
+  margin: 30px;
+}
+
+#welcome img {
+  width: 50vw;
+  border: 10px double black;
+  border-radius: 5%;
+  padding: 15px;
+  box-shadow: 5px 7px gray;
+  margin: 3vh;
+}
+
+.mapouter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gmap_canvas {
+  border: 3px solid black;
+}
+
+@media screen and (max-width: 1366px) {
+  #welcome img {
+    width: 60vw
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 4vh;
+  }
+
+  h3 {
+    font-size: 2vh;
+  }
+
+  #welcome {
+    flex-direction: column;
+  }
+
+  #welcome img {
+    padding: 10px;
+  }
+}
