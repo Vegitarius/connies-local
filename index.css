@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./stock-donuts.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50vh 50vh;
+}
+
+#welcome {
+  margin: 30px;
+} h2 {
+  float: right;
+}
+
+#about {
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+} p {
+  font-size: 4vh;
+  line-height: 10vh
+}
+
+@media screen and (max-width: 1366px) {
+  #about {
+    width: 65%;
+  } p {
+    line-height: 5vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    top: 0;
+  }
+
+  #about p {
+    line-height: 4vh
+  }
+
+  #welcome {
+    margin: 10px;
+  }
+
+  #about {
+    width: 75%;
+  } p {
+      font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #about {
+    width: 80%
+  } p {
+      line-height: 3.5vh;
+  }
+}

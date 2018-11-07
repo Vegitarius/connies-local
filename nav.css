@@ -13,6 +13,7 @@ ul {
   margin: .1%;
   float: left;
   text-decoration: none;
+  color: var(--color2);
 }
 
 .nav-page {
@@ -35,5 +36,15 @@ ul {
 }
 
 @media screen and (max-width: 500px) {
-
+  .nav-page {
+    font-size: 16px;
+    width: 23%;
+    float: right;
+  }
+  
+  .nav-logo {
+    font-size: 30px;
+    width: 30%;
+    padding-left: 2vh;
+  }
 }
