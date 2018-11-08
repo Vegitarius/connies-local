@@ -1,7 +1,19 @@
+#title {
+  margin: 3vh;
+}
+
+#about {
+  display: flex;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+}
+
 .mapouter {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  left: 0;
 }
 
 .gmap_canvas {

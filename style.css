@@ -14,7 +14,6 @@
 }
 
 body {
-  color: var(--color2);
   font-weight: normal;
   font-family: 'Libre Baskerville', serif;
 }
@@ -47,8 +46,17 @@ p {
   color: var(--color3);
 }
 
+.green-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color3);
+}
+
 .flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.opaque {
+  opacity: .5;
 }

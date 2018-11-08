@@ -13,7 +13,6 @@ ul {
   margin: .1%;
   float: left;
   text-decoration: none;
-  color: var(--color2);
 }
 
 .nav-page {
@@ -23,8 +22,7 @@ ul {
   padding: 12px;
 }
 
-.nav-logo {
-  color: var(--color3);
+#nav-logo {
   font-family: 'Dancing Script', cursive;
   width: 40%;
   font-size: 40px;
@@ -42,7 +40,7 @@ ul {
     float: right;
   }
   
-  .nav-logo {
+  #nav-logo {
     font-size: 30px;
     width: 30%;
     padding-left: 2vh;
