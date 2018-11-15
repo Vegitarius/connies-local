@@ -8,28 +8,15 @@ body {
 }
 
 #welcome {
-  margin: 30px;
-} h2 {
-  float: right;
-}
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
 
-#about-section {
-  background: white;
-  width: 40%;
-  position: absolute;
-  bottom: 0;
-  border-radius: 25px;
-} p {
-  font-size: 4vh;
-  line-height: 10vh
-}
-
-@media screen and (max-width: 1366px) {
-  #about-section {
-    width: 65%;
-  } p {
-    line-height: 5vh;
-  }
+#welcome h1 {
+  flex: 1 0 auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -38,25 +25,7 @@ body {
     top: 0;
   }
 
-  #about p {
-    line-height: 4vh
-  }
-
   #welcome {
     margin: 10px;
-  }
-
-  #about-section {
-    width: 75%;
-  } p {
-      font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #about-section {
-    width: 80%
-  } p {
-      line-height: 3.5vh;
   }
 }

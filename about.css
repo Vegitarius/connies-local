@@ -4,18 +4,28 @@
 
 #about {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#about-section {
+  flex: 0 0 70%; 
 }
 
 #information {
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
 }
 
 .mapouter {
   display: block;
-  left: 0;
 }
 
 .gmap_canvas {
   border: 3px solid black;
+}
+
+#about-section p {
+  font-size: 3vh;
 }
