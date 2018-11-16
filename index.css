@@ -8,21 +8,21 @@ body {
 }
 
 #welcome {
-  height: 90%;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 3vh;
 } 
 
 #welcome h1 {
-  flex: 1 0 auto;
+  text-align: center;
 }
 
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 40px;
-    top: 0;
+    font-size: 30px;
   }
 
   #welcome {

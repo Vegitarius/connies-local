@@ -1,0 +1,17 @@
+h2 {
+  margin: 3vh;
+}
+
+#events img {
+  width: 400px;
+  height: 400px;
+}
+
+.bg-img {
+  width: 400px;
+  height: 400px;
+}
+
+.tac-rocks-pic {
+  background: url(./assets/tacoma-rocks1.jpg) 50% 50% no-repeat;
+}

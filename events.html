@@ -7,8 +7,8 @@
   <title>Events</title>
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="events.css">
   <link rel="stylesheet" href="nav.css">
-  <link rel="stylesheet" href="animate.css">
 </head>
 <body>
   <nav>
@@ -29,9 +29,26 @@
   </nav>
   
   <div id="events">
-    <h2>Upcoming Events</h2>
+    <div>
+      <h2 class="green-underline">Upcoming Events</h2>
+      <p>There are currently no upcoming events, please check again soon</p>
+    </div>
 
-    <h2>Archived Events</h2>
+    <div>
+      <h2 class="green-underline">Archived Events</h2>
+      <div class="event">
+        <a href="https://www.facebook.com/events/172016566764993/">
+          <h3>Tacoma's Tour de Donuts</h3>
+        </a>
+        <img src="./assets/tourdedonuts.jpg" alt="tour-de-donuts-pic">
+      </div>
+      <div class="event">
+        <a href="https://www.facebook.com/groups/274078126399246/?ref=nf_target&fref=nf">
+          <h3>Tacoma Rocks</h3>
+        </a>
+        <div class="tac-rocks-pic bg-img"></div>
+      </div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
